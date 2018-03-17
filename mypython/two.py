@@ -23,12 +23,8 @@
 # root.mainloop()                 # 进入消息循环
 
 import sys
-import PyQt5.QtWidgets as py
-
-import sys
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication
 from PyQt5.QtCore import QCoreApplication
-
 
 class Example(QWidget):
 
@@ -46,7 +42,6 @@ class Example(QWidget):
         self.setGeometry(300, 300, 250, 150)
         self.setWindowTitle('Quit button')
         self.show()
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
